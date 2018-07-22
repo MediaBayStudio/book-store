@@ -1,0 +1,18 @@
+mixin feedback()
+  section.feedback
+    h2.feedback__title Есть вопросы?
+    h3.feedback__subtitle Напишите нам на почту. Отвечаем в течение дня
+    form.feedback__form
+      p.feedback__field
+        label.visible-hidden(for='feedback__email') Ваша почта
+        input.feedback__email(type='email' name='feedback__email', id='feedback__email', placeholder='Ваша почта')
+      p.feedback__field
+        label.visible-hidden(for='feedback__message') Сообщение
+        input.feedback__email(type='text' name='feedback__message', id='feedback__message', placeholder='Сообщение')
+      p.feedback__field
+        input.feedback__check(type='checkbox' name='feedback__check', id='feedback__check')
+        label.visible-hidden(for='feedback__check') Я согласен(-на) с 
+          a.feedback__agree(href='') политикой конфиденциальности и правилами обработки данных
+      p.feedback__field
+        input.feedback__submit.btn(type='submit' name='feedback__submit', id='feedback__submit' value='Отправить')
+        
