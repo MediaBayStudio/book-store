@@ -1,15 +1,15 @@
 mixin page-header()
   header.page-header
     div.page-header__wrapper
-      img.page-header__logo(src='img/logo.svg')
+      img.page-header__logo(src='img/logo.svg' width='128' height='17')
       span.page-header__time с 9:00 до 19:00
+      ul.page-header__user-nav
+        li.page-header__cart
+        li.page-header__menu
     nav.page-header__navigation
       ul.page-header__main-nav
         li.page-header__nav-link Книги
         li.page-header__nav-link Рекомендации
         li.page-header__nav-link Контакты
-      ul.page-header__user-nav
-        li.page-header__cart
-        li.page-header__phone
-        li.page-header__menu
-      
+        li.page-header__nav-link.page-header__nav-link--phone
+          a(href='#') 8 800 55-80-20

@@ -1,19 +1,27 @@
 $main-color:          #7DCBCF; // green
 $main-color-dark:     #4AA2A5; // green dark
 $second-color:        #1F2455; // magenta
-$second-color-light:  #6A4099; // magenta light
+$third-color:         #d7569c;
+$third-color-light:  rgb(244, 212, 228); // magenta light
+
 $warning-color:       #FDC05D; // orange
- 
-$gray-light:          #F2F2F2; 
-$gray-dark:           #231F20; 
+
+$background:         #f5f5f5;
+$border:             #e8e8e8;
+$link:               #1a1ff7;
+
+$gray-lighter:          #F2F2F2;
+$gray-dark:           #231F20;
 
 $text-color:          $gray-dark;
 
-$font-family:         -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+$font-family:         -apple-system, Monserrat, OpenSans, sans-serif;
 $font-size:           14px;
-$line-height:         1.4;
+$font-size--h1:       $font-size + 10px;
+$font-size--md:       $font-size + 2px;
+$font-size--lg:        $font-size + 4px;
+$line-height:         2.14;
 
-$screen-xs:           480px;
 $screen-sm:           768px;
 $screen-md:           992px;
 $screen-lg:           1200px;

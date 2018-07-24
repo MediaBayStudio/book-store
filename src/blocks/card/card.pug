@@ -1,10 +1,9 @@
 mixin card(src, title, subtitle, price)
   article.card
-    img.card__cover(src=src alt=title)
-    h1.card__title 
+    img.card__cover(src=src alt=title width='220' height='314')
+    h1.card__title
       =title
-    h2.card__subtitle 
-      =subtitle 
-    span.card__price 
+    h2.card__subtitle
+      =subtitle
+    span.card__price
       =price
-    

@@ -1,30 +1,34 @@
 mixin promo()
   section.promo
     ul.promo__navigation
-      li.promo__section Все
-      li.promo__section Маркетинг
-      li.promo__section Научпоп
-      li.promo__section Бизнес
-      li.promo__section Творчество
-      li.promo__section Творчество
+      li.promo__section
+        a.active(href='#') Все
+      li.promo__section
+        a(href='#') Маркетинг
+      li.promo__section
+        a(href='#') Научпоп
+      li.promo__section
+        a(href='#') Бизнес
+      li.promo__section
+        a(href='#') Творчество
     ul.promo__cards
-      li.promo__card 
+      li.promo__card
         +card('','Латеральная логика', 'Головоломный путь к нестандартному мышлению', '500')
-      li.promo__card 
+      li.promo__card
         +card('','Путеводитель по лжи','Критическое мышление в эпоху постправды','630')
-      li.promo__card  
+      li.promo__card
         +card('','Дао физики','Исследование параллелей между совеременной физикой и восточной философией','560')
-      li.promo__card  
+      li.promo__card
         +card('','Не очевидно','Как выявлять тренды раньше других','365')
-      li.promo__card  
+      li.promo__card
         +card('','Суперпотребители','Кто это и почему они так важны для вашего бизнеса','365')
-      li.promo__card  
+      li.promo__card
         +card('','Маркетинг в социальных сетях','','630')
-      li.promo__card  
+      li.promo__card
         +card('','Правильный выбор','Практическое руководство по принятию взвещенных решений','560')
-      li.promo__card  
+      li.promo__card
         +card('','Главное в истории искусств','Ключевые работы, темы, направления, техники','500')
-        
+
     ul.promo__pagination
       li.promo__page
         a(href='#') 1
@@ -37,9 +41,6 @@ mixin promo()
       li.promo__page
         a(href='#') 5
       li.promo__page
-        
+
       li.promo__page
         a(href='#') 10
-        
-      
-      
